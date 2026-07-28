@@ -1,0 +1,11 @@
+# Allow search engines to index public pages
+User-agent: *
+Allow: /
+
+# Prevent crawling of sensitive/private directories
+Disallow: /admin/
+Disallow: /private/
+Disallow: /cgi-bin/
+
+# Specify Sitemap location
+Sitemap: https://akarastartup.xyz/sitemap.xml
